@@ -32,10 +32,10 @@
     <section id="showcase">
         <div class="container">
             <h1>Say yes to pizza!</h1>
-                <p>Woodfire oven & family owned pizzeria</p>
-                <a href="#pizza-menu">
+            <p>Woodfire oven & family owned pizzeria</p>
+            <a href="#pizza-menu">
                 <button>Menu</button>
-                </a>
+            </a>
         </div>
     </section>
 
@@ -90,7 +90,8 @@
                 </div>
                 <div class="pizza-description">
                     <h2 class="pizza-name">Vegan Rustica</h2>
-                    <p>San marzano DOP, vegan mozzarella, aubergines, cherry tomatoes, garlic, toasted pine nuts, rocket, modena balsamic</p>
+                    <p>San marzano DOP, vegan mozzarella, aubergines, cherry tomatoes, garlic, toasted pine nuts,
+                        rocket, modena balsamic</p>
                     <p class="pizza-price">Price: &#8364; 16</p>
                 </div>
             </div>
@@ -100,7 +101,8 @@
                 </div>
                 <div class="pizza-description">
                     <h2 class="pizza-name">Capricciosa</h2>
-                    <p>San marzano DOP, fior di latte, parmesan, mushrooms, salami, ham, olives, artichokes, organic extra virgin olive oil</p>
+                    <p>San marzano DOP, fior di latte, parmesan, mushrooms, salami, ham, olives, artichokes, organic
+                        extra virgin olive oil</p>
                     <p class="pizza-price">Price: &#8364; 17</p>
                 </div>
             </div>
@@ -125,31 +127,64 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="booking">
+        <div class="container">
+            <h2 class="booking-heading">Booking</h2>
+            <div class="contact-img">
+                <img src="./assets/images/contact-us.jpg" alt="booking">
+            </div>
+            <div class="form">
+                <form action="/action_page.php" target="_blank" method="get">
+                    <label for="fullname">Full name:</label><br>
+                    <input type="text" id="fullname" size="50" placeholder="type your full name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" size="50" placeholder="type your email" required><br>
+                    <label for="mobile">Mobile number:</label><br>
+                    <input type="mobile" id="mobile" size="50" placeholder="type your mobile number" required><br>
+                    <label for="people">Select number of people:</label><br>
+                    <input type="radio" id="1-2" value="1-2">
+                    <label for="1-2">1-2</label><br>
+                    <input type="radio" id="3-4" value="3-4">
+                    <label for="3-4">3-4</label><br>
+                    <input type="radio" id="5+" value="5+">
+                    <label for="5+">5+</label><br>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required><br>
+                    <label for="message">Special requirements:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="6" placeholder="type your message"></textarea>
+                    <br><br>
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
 
     </section>
 
     <footer>
         <ul class="social-networks">
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener" 
+                <a href="https://facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener" 
+                <a href="https://twitter.com" target="_blank" rel="noopener"
                     aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
             </li>
             <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener" 
+                <a href="https://youtube.com" target="_blank" rel="noopener"
                     aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener" 
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
     </footer>
 
-     <!-- font awesome script-->
+    <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/83bea6457b.js" crossorigin="anonymous"></script>
 
 </body>
